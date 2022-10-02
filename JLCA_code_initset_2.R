@@ -1,5 +1,5 @@
-source('C:\\Users\\uccoo\\Desktop\\학교\\study\\JLCT\\JLCA_code_UD_2.r')
-source('C:\\Users\\uccoo\\Desktop\\학교\\study\\JLCT\\set_init.r')
+source('JLCT\\JLCA_code_UD_2.r')
+source('JLCT\\set_init.r')
 
 my_JLCA_initset <- function(data, n, njoint, nc, nclass, nitem, weight = rep(1, n), 
                             init = NA, rho_fix = FALSE, rho_init = NA, 
